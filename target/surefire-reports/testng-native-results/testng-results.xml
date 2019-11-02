@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="15904" started-at="2019-11-02T12:53:01Z" finished-at="2019-11-02T12:53:17Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="15904" started-at="2019-11-02T12:53:01Z" finished-at="2019-11-02T12:53:17Z">
+      <class name="tests.SnapEngageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:tests.SnapEngageTest@22f71333]" name="SetUp" is-config="true" duration-ms="4346" started-at="2019-11-02T13:53:01Z" finished-at="2019-11-02T13:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="loginSteps(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SnapEngageTest@22f71333]" name="loginSteps" duration-ms="7853" started-at="2019-11-02T13:53:06Z" data-provider="data-provider" finished-at="2019-11-02T13:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://snapengage-qa.appspot.com/signin?to=hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pedroalmodovar@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1q2w3e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSteps -->
+        <test-method status="PASS" signature="TakeScreenShot()[pri:0, instance:tests.SnapEngageTest@22f71333]" name="TakeScreenShot" duration-ms="1032" started-at="2019-11-02T13:53:14Z" finished-at="2019-11-02T13:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenShot -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:tests.SnapEngageTest@22f71333]" name="TearDown" is-config="true" duration-ms="2648" started-at="2019-11-02T13:53:15Z" finished-at="2019-11-02T13:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- tests.SnapEngageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
